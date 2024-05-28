@@ -1,0 +1,32 @@
+.card {
+    border-radius: 15px;
+    border: none;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .list-group-item {
+    background-color: #f8f9fa;
+    border: none;
+  }
+  
+  .list-group-item h5 {
+    font-size: 1.25rem;
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+  
+  .text-primary {
+    color: #007bff !important;
+  }
+  
