@@ -5,6 +5,7 @@ import PlatformIntroduction from "./components/PlatformIntroduction";
 import PlatformBenefits from "./components/PlatformBenefits";
 import ToolsAndTechnologies from "./components/ToolsAndTechnologies";
 import PlatformLayers from "./components/PlatformLayers";
+import QuizComponent from './components/QuizComponent';
 
 const App: React.FC = () => {
   return (
@@ -29,6 +30,9 @@ const App: React.FC = () => {
               <Nav.Link as={NavLink} to="/layers">
                 Layers
               </Nav.Link>
+              <Nav.Link as={NavLink} to="/quiz">
+  Quiz
+</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -37,6 +41,7 @@ const App: React.FC = () => {
           <Route path="/benefits" element={<PlatformBenefits />} />
           <Route path="/tools" element={<ToolsAndTechnologies />} />
           <Route path="/layers" element={<PlatformLayers />} />
+          <Route path="/quiz" element={<QuizComponent />} />
         </Routes>
       </div>
     </BrowserRouter>
