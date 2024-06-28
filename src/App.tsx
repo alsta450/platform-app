@@ -5,7 +5,7 @@ import PlatformIntroduction from "./components/PlatformIntroduction";
 import PlatformBenefits from "./components/PlatformBenefits";
 import ToolsAndTechnologies from "./components/ToolsAndTechnologies";
 import PlatformLayers from "./components/PlatformLayers";
-import QuizComponent from './components/QuizComponent';
+import QuizComponent from "./components/QuizComponent";
 
 const App: React.FC = () => {
   return (
@@ -31,8 +31,8 @@ const App: React.FC = () => {
                 Layers
               </Nav.Link>
               <Nav.Link as={NavLink} to="/quiz">
-  Quiz
-</Nav.Link>
+                Quiz
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
